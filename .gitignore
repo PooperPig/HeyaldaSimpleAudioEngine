@@ -1,0 +1,72 @@
+CSR2014-3.1/proj.ios_mac/build
+
+cocos2d/
+
+# Android: proj.android
+proj.android/bin/*
+proj.android/gen/*
+proj.android/obj/*
+proj.android/assets/*
+proj.android/libs/armeabi/gdb.setup
+
+# WP8: proj.win8.1-universal
+proj.win8.1-universal/WP8
+proj.win8.1-universal/ipch
+proj.win8.1-universal/Debug
+proj.win8.1-universal/ARM
+proj.win8.1-universal/App.Windows/ARM
+proj.win8.1-universal/App.Windows/Debug
+proj.win8.1-universal/App.Windows/Generated Files
+proj.win8.1-universal/App.WindowsPhone/ARM
+proj.win8.1-universal/App.WindowsPhone/Debug
+proj.win8.1-universal/App.WindowsPhone/Generated Files
+
+
+Thumbs.db
+.DS_Store
+*.metadata
+
+proj.ios/build
+**/libs/armeabi/libcocos2dcpp.so
+
+# These are copied and/or generated during the build processes
+**/assets/**
+**/obj/**
+
+
+# From https://github.com/github/gitignore/blob/master/Android.gitignore
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Ignore python compiled files
+*.pyc
+
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcscheme
+*.xcworkspacedata
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+**/ARM/**
+**/Debug/**
+*.vcxproj.user
+**/ipch/**
+*.sdf
+*.suo
+
+
